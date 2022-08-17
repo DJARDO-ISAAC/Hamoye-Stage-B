@@ -4,7 +4,7 @@ import pandas as pd
 #Convert the dictionary into DataFrame
 df = pd.DataFrame(df)
   
-# Remove column name 'data' and 'lights'
+#Remove column name 'data' and 'lights'
 import numpy as np
 df=pd.read_csv('C:\\Users\\D-IKE\\Desktop\\HamoyeCODES\\energydata_complete.csv')
 df.drop(['date', 'lights'], axis=1)
